@@ -1,0 +1,5 @@
+{
+  "name": "Foodie Deluxe ChatBot",
+  "description": "Hệ thống ChatBot thông minh hỗ trợ khách hàng nhà hàng Foodie Deluxe với TF-IDF, Fuzzy Matching và Context Tracking.",
+  "requestFramePermissions": []
+}
