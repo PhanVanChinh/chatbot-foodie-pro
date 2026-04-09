@@ -14,7 +14,6 @@
       "patterns": ["tạm biệt", "bye", "hẹn gặp lại", "thôi nhé", "cảm ơn tạm biệt", "xong rồi"],
       "responses": [
         "Cảm ơn bạn đã ghé thăm! Hẹn sớm gặp lại bạn tại nhà hàng.",
-        "Chúc bạn một bữa tối ngon miệng! Tạm biệt bạn.",
         "Rất hân hạnh được phục vụ. Hẹn gặp lại bạn lần sau!"
       ]
     },
@@ -31,8 +30,28 @@
       "tag": "menu_general",
       "patterns": ["thực đơn", "menu", "có món gì", "cho xem menu", "danh sách món ăn", "nhà hàng bán gì"],
       "responses": [
-        "Nhà hàng chúng tôi có thực đơn đa dạng từ món Á đến món Âu. Bạn muốn xem menu Khai vị, Món chính hay Đồ uống?",
-        "Dạ, menu của chúng tôi gồm có: Steak, Hải sản, Mì Ý và các món đặc sản vùng miền. Tôi gửi bạn link menu online nhé!"
+        "Nhà hàng chúng tôi có thực đơn đa dạng từ món Á đến món Âu. Bạn muốn xem menu Khai vị, Món chính hay Đồ uống?"
+      ]
+    },
+    {
+      "tag": "1",
+      "patterns": ["món á","món âu"],
+      "responses": [
+        "Bạn đi bao nhiêu người?"
+      ]
+    },
+    {
+      "tag": "2",
+      "patterns": ["2","3","4","1","5","6"],
+      "responses": [
+        "Chúng tôi đang có combo bữa ăn chỉ với 300k or combovip 500k kèm nước thực đơn bao gồm ... bạn muốn sử dụng combo nào ?"
+      ]
+    },
+    {
+      "tag": "3",
+      "patterns": ["300k","500k","combovip"],
+      "responses": [
+        "Bạn vui lòng chờ 10-15ph chúng tôi sẽ chuẩn bị món ăn ,xin cám ơn"
       ]
     },
     {
@@ -68,7 +87,14 @@
       "tag": "appetizers",
       "patterns": ["món khai vị", "ăn nhẹ", "salad", "súp", "khai vị"],
       "responses": [
-        "Khai vị bạn có thể thử Salad hoàng đế hoặc Súp kem bí đỏ, rất kích thích vị giác trước món chính ạ."
+        "Khai vị bạn có thể thử Salad hoàng đế hoặc Súp kem bí đỏ chỉ với 500k, rất kích thích vị giác trước món chính ạ."
+      ]
+    },
+    {
+      "tag": "4",
+      "patterns": ["ok","được"],
+      "responses": [
+        "Cám ơn quý khách vui lòng chờ để bếp cbi món ăn"
       ]
     },
     {
@@ -424,11 +450,7 @@
     "patterns": ["không ăn hành", "đừng cho hành", "bỏ hành", "không hành tây"],
     "responses": ["Dạ tôi đã ghi nhận yêu cầu không cho hành vào món ăn của bạn. Bạn yên tâm nhé!"]
   },
-  {
-    "tag": "request_no_msg",
-    "patterns": ["không mì chính", "không bột ngọt", "đừng cho mì chính"],
-    "responses": ["Nhà hàng chúng tôi hạn chế dùng bột ngọt, nếu bạn yêu cầu, đầu bếp sẽ hoàn toàn không sử dụng ạ."]
-  },
+  
   {
     "tag": "request_less_salt",
     "patterns": ["ăn nhạt", "ít muối", "đừng làm mặn", "giảm mặn"],
