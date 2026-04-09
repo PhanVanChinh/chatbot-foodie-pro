@@ -118,7 +118,7 @@ export class ChatBot {
       return `${this.getResponse(bestTag)}\n\n*(Bạn có thể nói rõ hơn nếu tôi hiểu chưa đúng nhé!)*`;
     }
     const hints = top3.filter(p => p.score > 0.10).map(p => `• ${this.tagToLabel(p.tag)}`);
-    if (hints.length > 0) 
+    if (hints.length > 0) return "Xin lỗi";
     return "Xin lỗi bạn , chủ nhân của tôi mới chỉ tạo được hơn 100tag và không may câu hỏi của bạn chưa nằm trong đấy , thật lòng chủ nhân của tôi vô cùng đáng tiếc và sẽ bổ sung sau thưa quý khách , mong quý khách thông cảm  .";
   }
 
