@@ -55,6 +55,29 @@
       ]
     },
     {
+      "tag": "a",
+      "patterns": ["món chính","chính"],
+      "responses": [
+        "Món chính hôm nay có Tôm Hùm phomai , gà nướng nguyên con , bò cobe dát vàng , banh muốn gọi combo hay gọi món lẻ?"
+      ]
+    },
+     
+    {
+      "tag": "c",
+      "patterns": ["Gà","gà nướng"],
+      "responses": [
+        "vâng xin chờ trong giây lát để nhà hàng chuẩn bị"
+      ]
+    },
+    {
+      "tag": "d",
+      "patterns": ["bò","bò kobe"],
+      "responses": [
+        "vâng xin chờ trong giây lát để nhà hàng chuẩn bị"
+      ]
+    },
+    
+    {
       "tag": "recommendations",
       "patterns": ["gợi ý món ăn", "nên ăn gì", "món nào ngon nhất", "best seller", "món đặc sắc", "tư vấn món ngon"],
       "responses": [
